@@ -12,10 +12,12 @@ body {
 }
 
 header {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 48px;
+  position: fixed;
 }
 header button {
   padding: 16px 24px;
@@ -33,7 +35,8 @@ header button {
 
 form {
   display: flex;
-  padding: 0 48px;
+  padding: 182px 48px 48px;
+  width: fit-content;
 }
 form .habits {
   margin-top: 60px;
