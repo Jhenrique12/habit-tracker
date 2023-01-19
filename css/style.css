@@ -75,6 +75,7 @@ form input {
   border: 2px solid #27272A;
   border-radius: 8px;
   background-color: #18181B;
+  cursor: pointer;
 }
 form input:checked {
   border: 2px solid #A78BFA;
