@@ -79,13 +79,14 @@ form {
   input {
     appearance: none;
     -webkit-appearance: none;
-  
+
     width: 64px;
     height: 64px;
     border: 2px solid #27272A;
     border-radius: 8px;
     background-color: #18181B;
-  
+    cursor: pointer;
+
     &:checked {
       border: 2px solid #A78BFA;
       background-color: #8B5CF6;
