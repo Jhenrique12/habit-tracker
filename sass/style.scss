@@ -28,10 +28,16 @@ header {
     font-family: 'Inter';
     font-size: 16px;
     line-height: 125%;
+    cursor: pointer;
     
     display: flex;
     align-items: center;
     gap: 12px;
+    
+    &:hover {
+      border-color:  #6129e4;
+
+    }
   }
 }
 
