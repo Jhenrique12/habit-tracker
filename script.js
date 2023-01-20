@@ -3,6 +3,7 @@ const nlwSetup = new NLWSetup(form)
 const button = document.querySelector('header button')
 
 button.addEventListener('click', add)
+form.addEventListener('change', save)
 
 function add() {
 
@@ -12,9 +13,13 @@ function add() {
   nlwSetup.addDay(today)
 
   dayExists ? alert("Dia já incluso!") : alert ("Dia adicionado!")
-
-
 }
+
+function save() {
+  localStorage.setItem('habitsTracked', JSON.stringify(nlwSetup.data))
+}
+
+const data = JSON.parse(localStorage.getItem('habitsTracked')) || {}
 
 nlwSetup.setData(data)
 nlwSetup.load()
