@@ -12,7 +12,7 @@ function add() {
 
   nlwSetup.addDay(today)
 
-  dayExists ? alert("Dia já incluso!") : alert ("Dia adicionado!")
+  dayExists ? alert("Dia já incluso!🔴") : alert ("Dia adicionado!🟢")
 }
 
 function save() {
