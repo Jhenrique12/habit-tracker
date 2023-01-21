@@ -52,10 +52,16 @@ O projeto foi idealização da Rocketseat com algumas alterações feitas por mi
  
 ## 🧑🏻‍💻 Autor  
 
-  João Henrique Camelo Vieira 
+João Henrique Camelo Vieira 
   
 - [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-henrique-vieira/)
-- [Github](https://github.com/Jhenrique12)
+- [Github](https://github.com/Jhenrique12) 
+
+Rocketseat 
+
+- [Site](https://www.rocketseat.com.br/)
+  
+
 
 
 
