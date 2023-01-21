@@ -4,41 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Habit Tracker</title>
+    
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./script.js" defer></script>
+    
+
+    <title>Habit Tracker</title>
   </head>
   <body>
+
 <header>
   <img src="./assets/logo.svg" alt="Logomarca do aplicativo Habits">
-
-  <button><img src="./assets/plus.svg" alt="Ícone sinal de mais roxo"> Registrar o meu dia</button>
-
+  <button>
+    <img src="./assets/plus.svg" alt="Ícone sinal de mais roxo">
+     <p>Registrar o meu dia</p> 
+    </button>
 </header>
 
 <form id="form-habits">
   <div class="habits">
-    <div class="habit">🏃</div>
-    <div class="habit">💧</div>
-    <div class="habit">🍎</div>
+    <div class="habit" data-name="workout">💪🏻</div>
+    <div class="habit" data-name="water">💧</div>
+    <div class="habit" data-name="food">🍎</div>
+    <div class="habit" data-name="programming">💻</div>
+    <div class="habit" data-name="study">📚</div>
   </div>
 
   <div class="days">
-    <div class="day">
-      <div>03/01</div>
-      <input type="checkbox" name="run">
-      <input type="checkbox" name="water">
-      <input type="checkbox" name="food">
-    </div>
-
-    <div class="day">
-      <div>04/01</div>
-      <input type="checkbox" name="run">
-      <input type="checkbox" name="water">
-      <input type="checkbox" name="food">
-    </div>
   </div>
 </form>
-
-
   </body>
+  <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js" ></script>
 </html>
+

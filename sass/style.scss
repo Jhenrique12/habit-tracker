@@ -12,10 +12,12 @@ body {
   height: 100vh;
 }
 header {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 48px;
+  position: fixed;
 
   button {
     padding: 16px 24px;
@@ -26,17 +28,24 @@ header {
     font-family: 'Inter';
     font-size: 16px;
     line-height: 125%;
+    cursor: pointer;
     
     display: flex;
     align-items: center;
     gap: 12px;
+    
+    &:hover {
+      border-color:  #6129e4;
+
+    }
   }
 }
 
 #form-habits {
   display: flex;
-  
-  padding: 0 48px;
+  padding: 182px 48px 48px;
+
+  width: fit-content;
 
   .habits {
     margin-top: 60px;
@@ -79,17 +88,24 @@ header {
   input {
     appearance: none;
     -webkit-appearance: none;
-  
+
     width: 64px;
     height: 64px;
     border: 2px solid #27272A;
     border-radius: 8px;
     background-color: #18181B;
-  
+    cursor: pointer;
+
     &:checked {
       border: 2px solid #A78BFA;
       background-color: #8B5CF6;
     }
+  }
+}
+
+@media (max-width: 570px) {
+  button p{
+    display: none;
   }
 }
 
