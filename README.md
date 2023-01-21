@@ -47,6 +47,8 @@ O projeto foi idealização da Rocketseat com algumas alterações feitas por mi
 
 
 ##  🌐 Site hospedado 
+
+ [Habit Tracker](https://jhenrique12.github.io/habit-tracker/)
  
 ## 🧑🏻‍💻 Autor  
 
