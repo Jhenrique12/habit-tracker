@@ -31,17 +31,17 @@ header button {
   gap: 12px;
 }
 
-form {
+#form-habits {
   display: flex;
   padding: 0 48px;
 }
-form .habits {
+#form-habits .habits {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-form .habits .habit {
+#form-habits .habits .habit {
   width: 64px;
   height: 64px;
   font-size: 32px;
@@ -49,17 +49,17 @@ form .habits .habit {
   align-items: center;
   justify-content: center;
 }
-form .days {
+#form-habits .days {
   display: flex;
   gap: 48px;
   margin-left: 32px;
 }
-form .days .day {
+#form-habits .days .day {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-form .days .day div {
+#form-habits .days .day div {
   margin-bottom: 8px;
   color: #A1A1AA;
   text-align: center;
@@ -67,7 +67,7 @@ form .days .day div {
   font-size: 20px;
   line-height: 125%;
 }
-form input {
+#form-habits input {
   appearance: none;
   -webkit-appearance: none;
   width: 64px;
@@ -76,7 +76,7 @@ form input {
   border-radius: 8px;
   background-color: #18181B;
 }
-form input:checked {
+#form-habits input:checked {
   border: 2px solid #A78BFA;
   background-color: #8B5CF6;
 }
