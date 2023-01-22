@@ -89,6 +89,21 @@ header button:hover {
   background-color: #8B5CF6;
 }
 
+.footer {
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 0.9rem;
+}
+.footer a {
+  text-decoration: none;
+  color: #8B5CF6;
+}
+.footer a:hover {
+  color: #A78BFA;
+}
+
 @media (max-width: 570px) {
   button p {
     display: none;
