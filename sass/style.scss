@@ -103,6 +103,22 @@ header {
   }
 }
 
+.footer {
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 0.9rem;
+
+  a {
+    text-decoration: none;
+    color: #8B5CF6;
+    &:hover {
+      color: #A78BFA;
+    }
+  }
+}
+
 @media (max-width: 570px) {
   button p{
     display: none;
